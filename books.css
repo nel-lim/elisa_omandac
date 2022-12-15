@@ -10,9 +10,13 @@ body{
     margin: 0;
     background: #D8D9CF;
 }
-
 .container{
-
+	width: 1180px;
+	margin: 0 auto;
+	display: block;
+}
+.clearfix{
+	overflow: auto;
 }
 
 a, li{
@@ -20,9 +24,6 @@ a, li{
 	list-style-type: none;
 }
 
-.clearfix{
-	overflow: auto;
-}
 
 /*Header Section*/
 header, .header_container{
@@ -66,11 +67,13 @@ nav ul li a:hover{
 /*Hero Section*/
 
 .hero_expanded{
-	background: url("/img/hero.jpg") no-repeat top/ cover;
+	background: url("img/hero.jpg") no-repeat top / cover;
 	position: absolute;
-	height: 631px;
+	height: 620px;
 	width: 100%;
 	top: 100px;
+	left: 0;
+	right: 0;
 }
 .hero_expanded:before{
 	content: "";
@@ -80,24 +83,37 @@ nav ul li a:hover{
 	top: 0;
 	left: 0;
 	right: 0;
+	margin: 0;
 	background: rgba(255, 255, 255, 0.3);
 }
 #hero{
 	position: relative;
 	background: transparent;
 	height: 631px;
+	left: 5px;
+	width: 1920px;
 }
 #hero .site_name_tag{
 	position: absolute;
 	top: 30%;
 	left: 0;
 	right: 0;
-	height: 327px;
+	height: 631px;
 	text-align: left;
 	margin-bottom: 55px;
 }
 #hero .site_name_tag h1{
-
+	font-family: 'Laila', sans-serif;
+	font-size: 70px;
+	font-style: normal;
+	font-weight: 500;
+	color: #000;
+	margin: 0;
+	width: 496px;
+	height: 320px;
+	padding-top: -10px;
+	line-height: 108px;
+	margin-bottom: 5px;
 }
 #hero .site_name_tag a{
 	background: #D9D9D966;
@@ -133,8 +149,10 @@ for final hands-on exam*/
 .middle_searchbar ul li  {
 	display: inline-block;
 	vertical-align: middle;
-	padding: 0 20px;
-	margin: 20px 0;
+	padding: 0 10px;
+	margin: 30px 20px;
+	height: 100px;
+	width: 200px;
 }
 .middle_searchbar ul li a {
 	color: #000;
@@ -142,9 +160,11 @@ for final hands-on exam*/
 	position: relative;
 	background: #D9D9D9;
 	padding: 10px 10px;
+	;
+
 }
-.middle_searchbar ul li a .icons {
-	margin-left: 80px;
+.middle_searchbar ul li a img {
+	margin-left: 30px;
 }
 input {
 	float: right;
@@ -227,10 +247,13 @@ a:hover {
 }
 .midtext{
 	width: 50%;
-
+	float: right;
+	padding-top: 10px;
+	margin-top: 70px;
 }
 .midtext a{
 	color: #000;
+	font-family: 'Laila', sans-serif;
 }
 .shoparrow a span{
 	font-size: 20px;
@@ -252,9 +275,11 @@ a:hover{
 	padding-top: 60px;
 	width: 590px;
 	float: left;
+	margin-left: 30px;
 }
 .aboutus .aboutustext h1{
 	padding-left: 40px;
+	font-weight: 700;
 }
 .aboutus .aboutusimg{
 	width: 500px;
@@ -273,7 +298,7 @@ a:hover{
 }
 .upat_column {
 	display: flex;
-	justify-content: ;
+	justify-content: center;
 	gap: 40px;
 }
 .text_column {
