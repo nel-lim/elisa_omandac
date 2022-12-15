@@ -1,3 +1,6 @@
+/*instructor john nel lim 
+for final hands-on exam*/
+
 body{
 	font-family: 'Laila', sans-serif;
 	color: #000;
@@ -9,9 +12,7 @@ body{
 }
 
 .container{
-	max-width: 1180px;
-	margin: 0 auto;
-	display: block;
+
 }
 
 a, li{
@@ -65,7 +66,7 @@ nav ul li a:hover{
 /*Hero Section*/
 
 .hero_expanded{
-	background: url("img/hero.jpg") no-repeat top/ cover;
+	background: url("/img/hero.jpg") no-repeat top/ cover;
 	position: absolute;
 	height: 631px;
 	width: 100%;
@@ -96,15 +97,7 @@ nav ul li a:hover{
 	margin-bottom: 55px;
 }
 #hero .site_name_tag h1{
-	font-family: 'Laila', sans-serif;
-	font-size: 70px;
-	font-style: normal;
-	color: #000;
-	margin: 0;
-	line-height: 108px;
-	width: 496px;
-	height: 327px;
-	margin-bottom: 15px;
+
 }
 #hero .site_name_tag a{
 	background: #D9D9D966;
@@ -125,6 +118,9 @@ nav ul li a:hover{
 	background: #fff;
 	color: #FF458F;
 }
+
+/*instructor john nel lim 
+for final hands-on exam*/
 
 /*middle*/
 
@@ -231,9 +227,7 @@ a:hover {
 }
 .midtext{
 	width: 50%;
-	float: left;
-	padding-left: 480px;
-	margin-top: 75px;
+
 }
 .midtext a{
 	color: #000;
@@ -279,7 +273,7 @@ a:hover{
 }
 .upat_column {
 	display: flex;
-	justify-content: center;
+	justify-content: ;
 	gap: 40px;
 }
 .text_column {
@@ -325,3 +319,6 @@ a:hover{
 	color: blue;
 	transition: 500ms;
 }
+
+/*instructor john nel lim 
+for final hands-on exam*/
